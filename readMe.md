@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-pip install my_string_processor
+pip install text-abbreviate
 ```
 
 ## Usage
