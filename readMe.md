@@ -11,14 +11,14 @@ pip install my_string_processor
 ## Usage
 
 ```python
-from text_abbtreviate import process_string
+from abbreviate import process_string
 
 # Example of string processing
-print(process_string("Hello, World!")) #HlW
-print(process_string("Hello, World!", length=5)) #HllWr
-print(process_string("Hello, World!", length=5, keep_separators=True)) #Hl, W
-print(process_string("Hello, World!", length=9, keep_separators=True, strict=False)) #Hll, Wrld
-print(process_string("Hello, World!", length=9, keep_separators=True, strict=False)) #Hll, Wrld
+print(process_string("Hello, World!"))  # HlW
+print(process_string("Hello, World!", length=5))  # HllWr
+print(process_string("Hello, World!", length=5, keep_separators=True))  # Hl, W
+print(process_string("Hello, World!", length=9, keep_separators=True, strict=False))  # Hll, Wrld
+print(process_string("Hello, World!", length=9, keep_separators=True, strict=False))  # Hll, Wrld
 ``` 
 
 ## Contributing
