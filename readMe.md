@@ -14,10 +14,12 @@ pip install my_string_processor
 from text_abbtreviate import process_string
 
 # Example of string processing
-input_str = "example-string-to-process"
-processed_str = process_string(input_str, length=5, keep_separators=True, strict=False)
-print(processed_str)
-```
+print(process_string("Hello, World!")) #HlW
+print(process_string("Hello, World!", length=5)) #HllWr
+print(process_string("Hello, World!", length=5, keep_separators=True)) #Hl, W
+print(process_string("Hello, World!", length=9, keep_separators=True, strict=False)) #Hll, Wrld
+print(process_string("Hello, World!", length=9, keep_separators=True, strict=False)) #Hll, Wrld
+``` 
 
 ## Contributing
 If you find a bug or want to add new features, contributions are welcome. Please check the contribution guidelines for more details.
