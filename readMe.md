@@ -1,6 +1,6 @@
 # text-abbreviate
 
-`my_string_processor` is a Python package for string processing. It allows you to clean up and transform strings into the desired format.
+`text-abbreviate` is a Python package for string processing. It allows you to clean up and transform strings into the desired format.
 
 ## Installation
 
